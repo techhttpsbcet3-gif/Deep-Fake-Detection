@@ -1,0 +1,8 @@
+node_modules/
+__pycache__/
+venv/
+.env
+*.pyc
+# Uncomment the line below if your model file is >100MB
+# *.keras
+# *.h5
