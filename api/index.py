@@ -66,5 +66,5 @@ async def predict(file: UploadFile = File(...)):
         print(f"Server Error: {e}", flush=True)
         return {"status": "error", "message": str(e)}
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+# if __name__ == "__main__":
+#     uvicorn.run(app, host="127.0.0.1", port=8000)
