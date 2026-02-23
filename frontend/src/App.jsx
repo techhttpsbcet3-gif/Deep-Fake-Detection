@@ -23,7 +23,7 @@ export default function DeepfakeApp() {
 
     setLoading(true);
     try {
-      const response = await axios.post('http://127.0.0.1:8000/predict', formData);
+      const response = await axios.post('https://deep-fake-detection-175e.onrender.com/predict', formData);
       setResult(response.data);
     } catch (err) {
       alert("System Offline: Ensure Backend is running.");
